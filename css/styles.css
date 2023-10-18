@@ -1,3 +1,41 @@
 li {
   list-style-type: none;
 }
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 5px solid coral;
+}
+.webstudio {
+  font-size: 26px;
+}
+.studio {
+  font-size: 14px;
+  order: 0;
+}
+.mailtel {
+  display: flex;
+  flex-direction: space-between;
+}
+.business {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/background-img.png);
+  border: 5px solid cornflowerblue;
+  height: 600px;
+  top: 80px;
+}
+h1 {
+  font-size: 44px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-top: 280px;
+  Line-height: 60px;
+  
+  
+
+  
+  
+}
